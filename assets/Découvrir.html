@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- Font awesome cdn css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!--Bootstrap care css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Découverte du restaurant mimi</title>
+</head>
+<body>
+
+    <nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100"> 
+      <div class="container-fluid">
+        <img src="assets/images/Manger à l'africaine 2.png" class="border-radius-30px" alt="">
+        <button 
+              class="navbar-toggler" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-4">
+              <a class="nav-link active" aria-current="page" href="Acceuil.html">Accueil</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="Découvrir.html">Découvrir</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a 
+                  class="nav-link dropdown-toggle" 
+                  href="Spécialité.html" id="navbarDropdown" 
+                  role="button" 
+                  data-bs-toggle="dropdown" 
+                  aria-expanded="false">
+                Spécialités
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Manioc</a></li>
+                <li><a class="dropdown-item" href="#">Saka-Saka</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Poisson fumé</a></li>
+              </ul>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="Classique.html">Les classiques</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="btn btn-order rounded-0" href="Commande.html">Passer la commande</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner d-flex justify-content-center align-items-center pt-5">
+      <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <h1 class="text-capitalize py-3 redressed banner-desc">Découverte de quelques produits exotiques</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cc-menu py-5 merriweather">
+      <div class="container">
+        <!--Titre
+          <div class="row">
+            <h3 class="text-center text-light merriweather">Nos variétes</h3>
+              <div class="card bg-transparent text-center mb-4">
+                  <div class="card-header redressed fs-4">
+                    <ul class="nav nav-tabs justify-content-center card-header-tabs">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="true" href="#">Active</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body text-light">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+          </div>-->
+          <!--Cards-->
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="assets/images/jus-de-gingembre.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">GINGEMBRE</h5>
+                    <p class="card-text">Le jus de gingembre, tout un programme ! soirées au gré des musiques de tambours, 
+                      danses et couleurs de l'Afrique noire. Car si le jus de gingembre est très apprécié au Congo, 
+                      on le boit également dans de nombreux autres pays du continent comme au Sénégal par exemple. 
+                      Ce cocktail est très tonifiant et donne à la fois une sensation de feu tout en étant extrêmement désaltérant. 
+                      Le piquant ressenti est du aux principes actifs contenus dans la plante Zinziber officinale qui sont Sodahol, 
+                      Paradol, Zingérone. Cette plante est très utilisée en cuisine au travers le monde, 
+                      comme en atteste déjà de nombreuses recettes de ce blog, mais est également un élément essentiel de 
+                      la pharmacopée traditionnelle dans de nombreux pays et est utilisée notamment contre les nausées, migraines, cholestérol...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="assets/images/i7784-photo-de-jus-de-bissap.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">BISSAP (HIBISCUS)</h5>
+                    <p class="card-text">Il y a un dicton ivoirien qui me sourire à chaque fois que je l'entend et qui est tellement vrai: 
+                      "C'est Coca-Cola qui fait publicité sinon bissap est serein". <br> À la fois boisson des grandes occasions et street 
+                      food par excellence, c'est la boisson d'Afrique subsaharienne. 
+                      <br> Le bissap possède des vertus hypotensives permettant de lutter contre l’hypertension artérielle, 
+                      et propriétés protectrices pour le cœur.
+                      <br> Des études ont été menées pour prouver l’efficacité de l’hibiscus comme un traitement naturel contre 
+                      l’hypertension artérielle<br>...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-sm-none d-md-block">
+                <div class="card">
+                  <img src="assets/images/safou 2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">SAFOU</h5>
+                    <p class="card-text">Plusieurs études prospectives et épidémiologiques ont démontré qu’une consommation élevée 
+                      de fruits et de légumes diminuait le risque de maladies cardiovasculaires, 
+                      de certains cancers et d’autres maladies chroniques. <br> Le safou a plusieurs vertus préventives et thérapeutiques; 
+                      il permet donc de guérir plusieurs malades telles que : la Constipation, le Cancer, l’Ostéoporose., 
+                      les Lipides sanguins, les Maladies cardiovasculaires, et l’Anxiété...
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="assets/images/nkaba.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">TUBERCULE DE MANIOC</h5>
+                    <p class="card-text">De par sa richesse en glucides, en amidon et en fibres alimentaires, 
+                      le manioc représente un réel avantage pour la santé. <br> Il est à la fois très digeste, 
+                      rassasiant et a un effet régulateur sur le transit intestinal. 
+                      <br> Il constitue une alternative originale aux féculents et céréales plus traditionnelles comme le riz ou les pâtes<br>...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </section>
+<!--Pagination-->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item">
+            <a class="page-link" href="Acceuil.html">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="Découvrir.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="Spécialité.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="Classique.html">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="Acceuil.html">Next</a>
+          </li>
+        </ul>
+    </nav>
+
+    <footer class="footer">
+      <section class="footer-link">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link disabled">Rester connecté</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="https://wa.me/0033749349674"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/esther.konda.96/"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.instagram.com/estherkonda/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link disabled">Horaire d'ouverture</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Vendredi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Samedi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dimanche</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link disabled">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="tel:+33749349674">Phone</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:kondaesther4@gmail.com">Email</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-copy">&copy; Copyright 2022 Restaurant Mimi</section>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
